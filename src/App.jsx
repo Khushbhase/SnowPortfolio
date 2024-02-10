@@ -9,12 +9,17 @@ import clickSound from "./click_sound.mp3";
 import Contact from "./pages/Contact";
 import Stack from "./pages/Stack";
 import ScrollToTop from "react-scroll-up";
+import Inspirations from "./pages/Inspiration";
+import Temp from "./pages/Temp";
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
   // script to play the 'click' audio
   function play() {
     new Audio(clickSound).play();
   }
+
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
@@ -58,6 +63,9 @@ function App() {
           {/* projects section  */}
           <Route path="/work" element={<Work />} />
 
+          {/* Link to Inspiration page */}
+          <Route path="/inspiration" element={<Temp />} />
+
           {/* Donate section  */}
           <Route
             path="/support"
@@ -70,7 +78,7 @@ function App() {
           />
         </Routes>
         {/* footer (on every route) with text and project_link props */}
-        <Footer project_link="https://github.com/realsnipc/snipc" />
+        <Footer project_link="https://github.com/Khushbhase" />
       </div>
     </>
   );

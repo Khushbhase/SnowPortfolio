@@ -24,7 +24,7 @@ function Hero() {
     if (localStorage.getItem("theme") == "dark") {
       setDarkTheme(true);
     }
-    fetch("https://api.lanyard.rest/v1/users/1019641343875760350")
+    fetch("https://api.lanyard.rest/v1/users/742269888579764304")
       .then((res) => res.json())
       .then((json) => {
         let data = json.data.discord_status;
@@ -47,16 +47,29 @@ function Hero() {
         }
       });
   }, []);
-  // Calculate age from D.O.B.
-  var dob = new Date("09/02/2009");
-  var month_diff = Date.now() - dob.getTime();
-  var age_dt = new Date(month_diff);
-  var year = age_dt.getUTCFullYear();
-  var age = Math.abs(year - 1970);
+
+
+  
+
+// Define the date of birth
+var dob = new Date("05/31/2002"); // Note: JavaScript Date uses the format MM/DD/YYYY
+
+// Calculate the difference between the current date and the birthdate
+var month_diff = Date.now() - dob.getTime();
+
+// Create a new Date object from the difference to get the age
+var age_dt = new Date(month_diff);
+
+// Extract the year component from the age date
+var year = age_dt.getUTCFullYear();
+
+// Calculate the age by subtracting the birth year from the epoch (1970)
+var age = Math.abs(year - 1970);
+
+
 
   return (
     <>
-      <title>Shaurya Chaudhary | snipc</title>
       {/* <Zoom> */}
       <div className="container fade-in">
         {/* here comes the text container  */}
@@ -118,11 +131,11 @@ function Hero() {
           </h5>
           {/* name and about me section  */}
           <h1 id="hello">
-            Hello, I'm <span id="Shaurya">Shaurya</span>
+            Hello, I'm <span id="Khushal">Khushal</span>
           </h1>
           <p id="about">
-            I'm a <b data-tooltip-id="dob">{age}</b> y/o fullstack developer
-            from India. On the Internet, people call me snipc!
+            I'm a <b data-tooltip-id="dob">{age}</b> y/o frontend developer
+            from Lonavala, India. My loved ones sometimes call me Khush!
           </p>
 
           <ReactTooltip
@@ -147,9 +160,9 @@ function Hero() {
             style={{ textDecoration: "none" }}
             preventScrollReset={false}
           >
-            <h3>work</h3>
+            <h3>Projects</h3>
             <p>
-              View my elegently crafted open-source and other awesome projects.
+              View some projects I made on this journey of development. 
             </p>
           </Link>
         </div>
@@ -194,30 +207,17 @@ function Hero() {
       <div id="more_pages">
         <div id="first" className="page">
           <Link
-            to="https://www.last.fm/user/realsnipc"
+            to="/inspiration"
             style={{ textDecoration: "none" }}
             preventScrollReset={false}
           >
-            <h3>songs</h3>
+            <h3>Inspirations</h3>
             <p>
-              This button leads to songs I listen to when I'm coding, gaming, or
-              just plain bored, so buckle up!
+              This button leads to page where I listed the people I take inspirations from. (Fiction & Non Fiction)
             </p>
           </Link>
         </div>
 
-        {/* <div id="second" className="page">
-          <Link
-            to="https://anilist.co/user/snipc"
-            style={{ textDecoration: "none" }}
-          >
-            <h3>anime</h3>{" "}
-            <p>
-              The anime that I used to watch that make me feel like I can do
-              anything.
-            </p>
-          </Link>
-        </div> */}
       </div>
 
       <p id="pages_title" style={{ marginTop: "20vh" }}>
@@ -225,12 +225,10 @@ function Hero() {
       </p>
       <div id="about_me" data-aos="fadeInUp" data-aos-anchor=".other-element">
         <p id="about_para">
-          My name is <span id="Shaurya">Shaurya</span>, and i love code.
-          <br /> <br /> When I'm not wrangling code, you can find me playing games or reading something (Though, free time's been a bit scarce
-          lately!)
+          My name is <span id="Khushal">Khushal</span>, and i code for living.
+          <br /> <br /> When I'm not working, you can find me around songs, books and sports. (Though, as it's my last year. I code most of the time.)
           <br /> <br />
-          "Brain wired for logic, heart fueled by innovation, I'm dancing with
-          the future, one byte at a time."
+          "The reason you don't have what you want is because you don't deserve it (period)"
         </p>
         <LazyLoadImage
           effect="blur"

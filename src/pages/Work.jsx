@@ -5,9 +5,11 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 // projects images
-import snipc_me from "../assets/projects/snipc_me.jpeg";
-import tribute_to_steve from "../assets/projects/tribute_to_steve.png";
-import sni_blog from "../assets/projects/blog.png";
+import sundown from "../assets/projects/sundown_clone.png";
+import ochi from "../assets/projects/ochi_clone.png";
+import Work_studio from "../assets/projects/Work_Studio.png";
+import model from "../assets/projects/model.png";
+import TwoGood from "../assets/projects/two_good.png";
 
 function Work() {
   useEffect(() => {
@@ -17,25 +19,39 @@ function Work() {
 
   const projects = [
     {
-      name: "Blog",
-      des: "My Blog where I share my thoughts and ideas",
-      github: "https://github.com/realsnipc/blog",
-      img: sni_blog,
-      link: "https://blog.snipc.me",
+      name: "Work Studio clone",
+      des: "Make this clone using Html, Css and JS",
+      github: "https://github.com/Khushbhase/Works-studio-clone",
+      img: Work_studio,
+      link: "https://works-studio-clone-hhmevvxl2-khushs-projects-05949532.vercel.app/",
     },
     {
-      name: "Tribute to Steve",
-      des: "Tribute to 'Steven Paul Jobs'. To remember his revolutionary contributions to the world, I've created this website.",
-      github: "https://github.com/realsnipc/TributeToSteve",
-      img: tribute_to_steve,
-      link: "https://realsnipc.github.io/TributeToSteve/",
+      name: "Ochi Clone",
+      des: "Ochi website clone, made using React and CSS animations",
+      github: "https://github.com/Khushbhase/Ochi_Clone",
+      img: ochi,
+      link: "https://magical-capybara-90367b.netlify.app/",
     },
     {
-      name: "website",
-      des: " You are here, my personal website - built with React.js, Vite and a lot of >3!",
-      github: "https://github.com/realsnipc/website",
-      img: snipc_me,
-      link: "https://snipc.me",
+      name: "Sundown",
+      des: " Sundown clone, made using Html, Css and JS. Used Animations as well.",
+      github: "https://github.com/Khushbhase/SunDownClone",
+      img: sundown,
+      link: "https://stunning-lollipop-144568.netlify.app/",
+    },
+    {
+      name: "Cyberfiction",
+      des: " CyberFiction site, made using 3d Model.",
+      github: "https://github.com/Khushbhase/3d-site",
+      img: model,
+      link: "https://dazzling-custard-191423.netlify.app/",
+    },
+    {
+      name: "Two Good CO",
+      des: " Two Good Clone",
+      github: "https://github.com/Khushbhase/two-good-co",
+      img: TwoGood,
+      link: "https://two-good-ofbdotyth-khushs-projects-05949532.vercel.app/",
     },
   ];
   return (

@@ -43,16 +43,16 @@ b {
 }
 
 /* "Name" element styling  */
-#Shaurya {
-  color: #f0bbc2;
-  background-image: -webkit-linear-gradient(45deg, #f0bbc2 0%, #ffdde1 100%);
+#Khushal {
+  color:rgb(252, 77, 77);
+  background-image: -webkit-linear-gradient(45deg, #c85d6b 0%, #f84c60 100%);
   background-clip: text;
   -webkit-background-clip: text;
   cursor: pointer;
   -webkit-text-fill-color: transparent;
   
 }
-#Shaurya:hover {
+#Khushal:hover {
   color: rgb(170, 168, 168);
   transition: 0.3s;
 }

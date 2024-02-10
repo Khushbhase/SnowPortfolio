@@ -10,7 +10,7 @@ function Contact() {
   return (
     <>
       <div className="fade-in">
-        <title>contact | snipc</title>
+        <title>contact | Khush</title>
         <div id="hero_text">
           <h2 className="text_hero_text">Contact</h2>
           <p className="text_hero_text">
@@ -19,7 +19,7 @@ function Contact() {
         </div>
 
         <div id="contact_methods">
-          <a href="https://dsc.gg/devsh" target="_blank">
+          <a href="https://discord.com/channels/@me" target="_blank">
             {/* discord card  */}
             <div className="contact_card">
               <iconify-icon
@@ -29,11 +29,11 @@ function Contact() {
               ></iconify-icon>
               <div className="contact_card_content">
                 <h2>Discord</h2>
-                <p>@snipc</p>
+                <p>@Khush</p>
               </div>
             </div>
           </a>
-          <a href="https://linkedin.com/in/realshaurya" target="_blank">
+          <a href="https://www.linkedin.com/in/khushal-bhase-a6385b241/" target="_blank">
             {/* linkedin card  */}
             <div className="contact_card">
               <div className="icon_mobile">
@@ -46,11 +46,11 @@ function Contact() {
               </div>
               <div className="contact_card_content">
                 <h2>LinkedIn</h2>
-                <p>@realshaurya</p>
+                <p>@khushalBhase</p>
               </div>
             </div>
           </a>
-          <a href="https://github.com/realsnipc" target="_blank">
+          <a href="https://github.com/Khushbhase" target="_blank">
             {/* Github card   */}
             <div className="contact_card">
               <iconify-icon
@@ -60,12 +60,12 @@ function Contact() {
               ></iconify-icon>
               <div className="contact_card_content">
                 <h2>Github</h2>
-                <p>@realsnipc</p>
+                <p>@Khushbhase</p>
               </div>
             </div>
           </a>
 
-          <a href="mailto:hello@snipc.me" target="_blank">
+          <a href="mailto:bhasekhushal2@gmail.com" target="_blank">
             {/* Mail card   */}
             <div className="contact_card">
               <iconify-icon
@@ -75,21 +75,10 @@ function Contact() {
               ></iconify-icon>
               <div className="contact_card_content">
                 <h2>Mail</h2>
-                <p>m@snipc.me</p>
+                <p>bhasekhushal2@gmai.com</p>
               </div>
             </div>
           </a>
-
-          {/* <a href="https://myanimelist.net/profile/snipc" target='_blank'>
-                    <div className="contact_card">
-                        <iconify-icon icon="simple-icons:myanimelist" height='2.5rem' style={{ paddingLeft: '10px' }}></iconify-icon>
-                        <div className="contact_card_content">
-
-                            <h2>M.A.L</h2>
-                            <p>@snipc</p>
-                        </div>
-                    </div>
-                </a> */}
         </div>
       </div>
     </>

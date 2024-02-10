@@ -11,7 +11,7 @@ function Stack() {
     }, [])
     return (
         <>
-            <title>stack | snipc</title>
+            <title>stack | khush</title>
             <div id="hero_text">
                 <h2 className='text_hero_text'>Stack</h2>
                 <p className='text_hero_text'>Discover the apps and tools that power my productivity, creativity, and everyday life.
@@ -50,12 +50,12 @@ function Stack() {
                         </div>
                         <span className="tech-card-desc">React.js</span>
                     </div>
-                    <div className="technologies-card">
+                    {/* <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="logos:python" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Python</span>
-                    </div>
+                    </div> */}
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="vscode-icons:file-type-node" height='1.5rem'></iconify-icon>
@@ -82,12 +82,12 @@ function Stack() {
                 </div>
                 <div className="container2">
 
-                    <div className="technologies-card">
+                    {/* <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="logos:prerender-icon" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Render</span>
-                    </div>
+                    </div> */}
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="bi:github" height='1.5rem'></iconify-icon>
@@ -102,12 +102,12 @@ function Stack() {
                         <span className="tech-card-desc">Iconify</span>
                     </div>
 
-                    <div className="technologies-card">
+                    {/* <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="arcticons:proton-mail" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Proton Mail</span>
-                    </div>
+                    </div> */}
 
                     {/* Template to add more item  */}
                     <div className="technologies-card">
@@ -116,13 +116,6 @@ function Stack() {
                         </div>
                         <span className="tech-card-desc">MongoDB</span>
                     </div>
-                    {/* Template to add more item  */}
-                    {/* <div className="technologies-card">
-                <div className="tech-card-display">
-                <iconify-icon icon="vscode-icons:file-type-html" height='1.5rem'></iconify-icon>
-                </div>
-                <span className="tech-card-desc">Adobe</span>
-            </div> */}
 
                 </div>
 
@@ -157,14 +150,14 @@ function Stack() {
                         </div>
                         <span className="tech-card-desc">Canva</span>
                     </div>
-                    {/* 
+                    
                     <div className="technologies-card">
                         <div className="tech-card-display">
                             <iconify-icon icon="devicon-plain:notion" height='1.5rem'></iconify-icon>
                         </div>
                         <span className="tech-card-desc">Notion</span>
-                    </div> */}
-
+                    </div>
+                    
 
                     {/* Template to add more item  */}
                     {/* <div className="technologies-card">
