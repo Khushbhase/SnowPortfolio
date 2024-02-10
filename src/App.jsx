@@ -11,7 +11,6 @@ import Stack from "./pages/Stack";
 import ScrollToTop from "react-scroll-up";
 import Inspirations from "./pages/Inspiration";
 import Temp from "./pages/Temp";
-import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
   // script to play the 'click' audio
@@ -19,7 +18,6 @@ function App() {
     new Audio(clickSound).play();
   }
 
-  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
